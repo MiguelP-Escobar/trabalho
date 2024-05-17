@@ -1,11 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bibliotéca</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <p>TESTE!</p>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-book" id="nav_logo">  <span class="logo-text"><a href="/index.html">Virtual Library</a></span></i>
+
+            <ul id="nav_list">  
+                <li class="nav-item active">
+                    <a href="#">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Estante</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Avaliações</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">Contato</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                <a href="/login.html">LOGIN</a>
+            </button>
+        </nav>
+    </header>
+
+    <main id="conteudo">
+        <section id="inicio">
+            <div id="apresentacao">
+                <h1 class="title">Monte sua própria estante virtual</h1>
+
+                <p class="descricao">
+                    Mostre para seus amigos o que você está lendo e organize suas leituras
+                </p>
+
+                <div id="apresentacao_button">
+                    <button class="btn-default">
+                        <a href="#">COMECE AGORA!</a>
+                    </button>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="images/library5.webp" alt="">
+            </div>
+        </section>
+
+        <section id="destaques">
+            <h2 class="sectio-title">Destaques</h2>
+            <h3 class="section-subtitle">Avaliações de usuários</h3>
+
+            <div id="avaliacoes">
+                <div class="avaliacao-usuario">
+                    <div class="capa-titulo-dimensao">
+                        <img src="images/livro1.jpg" class="capa" alt="">
+                        <h3 class="nome-livro">
+                            O Iluminado
+                        </h3>
+                    </div>
+                    
+                    <div class="user-text">
+                        <img src="/images/user1.jpg" class="user" alt="">
+                        <p>
+                            "A narrativa é envolvente, os personagens são profundos e a atmosfera é arrepiante. Este livro é um verdadeiro clássico do gênero, capaz de deixar até os leitores mais corajosos com os cabelos em pé.""
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    
 </body>
 </html>
