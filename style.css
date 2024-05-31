@@ -226,17 +226,17 @@ input{
 }
 
 footer{
-    padding: 1.75rem 8%;
+    padding: 1rem 8%;
     border-color: #1d1d1d;
     border-style: solid;
     border-width: 0rem 0.063rem 0.063rem 0.063rem;
+    background-color: #97c9c9;
 }
 
 #nav_bar_footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 25px;
 }
 
 #nav_list_footer{
